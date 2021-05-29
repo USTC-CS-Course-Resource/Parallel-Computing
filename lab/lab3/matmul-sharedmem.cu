@@ -4,7 +4,7 @@
 
 using namespace std;
 
-constexpr long WIDTH = 1024;
+constexpr long WIDTH = 128;
 constexpr long TILE_WIDTH = 16;
 
 void MatmulOnCPU(double* M, double* N, double* P) { 
